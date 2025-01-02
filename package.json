@@ -1,0 +1,30 @@
+{
+  "name": "codex-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A codex-backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CODE000x/codex-backend.git"
+  },
+  "author": "Abhishek Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CODE000x/codex-backend/issues"
+  },
+  "homepage": "https://github.com/CODE000x/codex-backend#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "joi": "^17.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.4.2"
+  }
+}
